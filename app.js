@@ -9,23 +9,30 @@ $(document).ready(function()
     $(this).toggleClass(color);
   });
 
-  $('#reset').on('click', function() {
-    $('.box').removeClass(colors)
+  $('#reset').on('click', function()
+  {
+    $('.box').removeClass(colors);
+    color='white';
   });
 
-  $('#red').on('click', function() {
+  $('#red').on('click', function()
+  {
     color = 'red';
   });
-  $('#blue').on('click', function() {
+  $('#blue').on('click', function()
+  {
     color = 'blue';
   });
-  $('#green').on('click', function() {
+  $('#green').on('click', function()
+  {
     color = 'green';
   });
-  $('#yellow').on('click', function() {
+  $('#yellow').on('click', function()
+  {
     color = 'yellow';
   });
-  $('#white').on('click', function() {
+  $('#white').on('click', function()
+  {
     color = 'white';
   });
 })
