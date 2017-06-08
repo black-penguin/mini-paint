@@ -2,6 +2,12 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
+header
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 a {
   text-decoration: none;
   color: black;
